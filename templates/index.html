@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertisseur de devises</title>
+</head>
+
+<body>
+    <h1>Convertisseur de devises</h1>
+    <form action="/convert" method="post">
+        <label for="amount">Montant à convertir :</label>
+        <input type="text" id="amount" name="amount" required><br><br>
+
+        <label for="from_currency">De :</label>
+        <input type="text" id="from_currency" name="from_currency" required><br><br>
+
+        <label for="to_currency">À :</label>
+        <input type="text" id="to_currency" name="to_currency" required><br><br>
+
+        <input type="submit" value="Convertir">
+    </form>
+</body>
+
+</html>
